@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yönetici Sayfası</title>
+</head>
+<body>
+    <h1>Yönetici Sayfası</h1>
+    <p>Yöneticiye özel sayfa içeriği burada görüntülenir.</p>
+    
+    <h2>Facebook Sayfaları:</h2>
+    <ul>
+        <li><a href="{{ url_for('messages', page_id='page_id_1') }}">Sayfa 1</a></li>
+        <li><a href="{{ url_for('messages', page_id='page_id_2') }}">Sayfa 2</a></li>
+        <!-- Diğer sayfaları da buraya ekleyebilirsiniz -->
+    </ul>
+</body>
+</html>
